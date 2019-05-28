@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo_add-Musica.css">
+    <link rel="stylesheet" href="css/tabla.css">
+    <link rel="stylesheet" type="text/css" href="tcal.css" />
+  <script type="text/javascript" src="tcal.js"></script> 
+    
+
+    <title>Agregar Musica</title>
+</head>
+<body align="justify">
+
+<header class="header">
+    <div class="container logo-nav-container">
+           <a href="#" class="calendario">Agregar Música</a>
+           <nav class="navigation">
+        <ul>
+       <li><a href="menu.html">Regresar</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+
+
+
+
+
+<div class="contenedor">
+<form>
+<input type="file" name="imagenes" maxlength="1000000" accept="image/gif" /> 
+<input type="text" placeholder="Nombre Cancion" maxlength="10" size="40" id="texto">
+<input type="text" placeholder="Fecha Registro" name="date" class="tcal" value="" />
+<input type="submit" name="enviar formulario" value="Guardar" class="col" />
+<input type="reset" name="cancelar envio" value="Cancelar" class="col"/> 
+
+</form>
+</div>
+
+<div id="main-container">
+
+    <table>
+      <thead>
+        <tr>
+          <th>N° Canción</th><th>Nombre</th><th>Fecha registro</th><th>URL</th><th>Eliminar</th><th>Editar</th>
+        </tr>
+      </thead>
+
+      <tr>
+        <td>1</td><td>El piston</td><td>12/09/2019</td><td>musica\regla.mp3</td><td><button>Eliminar</button></td><td><button>Editar</button></td>
+      </tr>
+      <tr>
+        <td>2</td><td>Yo Pongo las Reglas</td><td>13/10/2019</td><td>musica\piston.mp3</td><td><button>Eliminar</button></td><td><button>Editar</button></td>
+      </tr>
+      <tr>
+        <td>3</td><td>Huapangos</td><td>14/07/2019</td><td>musica\huapango.mp3</td><td><button>Eliminar</button></td><td><button>Editar</button></td>
+      </tr>
+    </table>
+  </div>
+
+
+</body>
+</html>

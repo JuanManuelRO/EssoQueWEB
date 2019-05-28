@@ -1,0 +1,101 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body{
+    background-image:url(../img/rojo.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+}
+
+.title {
+  text-align: center;
+  color: white; }
+
+
+
+.header{
+  background: #024956;
+  color: white;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+  padding: 2rem 0;
+}
+
+.container{
+  width: 85;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.calendario{
+  letter-spacing: 2px;
+  font-size: 2em;
+}
+
+
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li{
+  display: inline-block;
+  }
+
+  .navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+  }
+
+  .navigation ul li a:hover{
+    background: #4a4a4a;
+  }
+
+
+.contenedor{
+  padding-top: 100px;
+  text-align: center;
+}
+
+input{
+  background-color: #024956;
+  color: white;
+  border-radius: 5px;
+  border: solid;
+  cursor:pointer;
+  display: inline-block;
+  padding: 10px;
+}
+
+
+.col{
+  background-color: #620204;
+}
+
+
+.video{
+  padding-top: 70px;
+  text-align: center;
+}
+
+img{
+  height: 300px;
+  width:  600px;
+  border-radius: 100px;
+}

@@ -1,0 +1,135 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body{
+    background-image:url(../img/rojo.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+}
+
+.title {
+  text-align: center;
+  color: white; }
+
+
+
+.header{
+  background: #024956;
+  color: white;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+  padding: 2rem 0;
+}
+
+.conta{
+  width: 85;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.calendario{
+  letter-spacing: 2px;
+  font-size: 2em;
+}
+
+
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li{
+  display: inline-block;
+  }
+
+  .navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+  }
+
+  .navigation ul li a:hover{
+    background: #4a4a4a;
+  }
+
+
+.container{
+	position: relative;
+	top: 20px;
+	width: 90%;
+	height: auto;
+	margin: auto;
+	background: none;
+}
+
+.container .list-image{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.container .list-image li{
+	margin-right: 10px;
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.container .list-image li .container__image{
+	position: relative;
+	width: 250px;
+	height: 180px; 
+	background: #fff;
+	border-radius: 3px;
+
+}
+
+.container .list-image li .container__image img{
+	position: relative;
+	width: 250px;
+	height: 150px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+.container .list-image li .container__image .information_image{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background: none;
+	display: flex;
+	align-items: center;
+}
+.container .list-image li .container__image .information_image .name__image{
+	font-family: "Open Sans";
+	font-size: 16px;
+	margin-left: 15px;
+}
+.container .list-image li .container__image .information_image .view_moreinfo{
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	display: block;
+	padding: 6px 12px;
+	
+	line-height: 12px;
+	text-decoration: none;
+	color: #888;
+	font-family: "Open Sans";
+	font-size: 14px;
+	border-radius: 90px;
+	border: 2px solid #888;
+}

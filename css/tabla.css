@@ -1,0 +1,52 @@
+/*
+	Color fondo: #632432;
+	Color header: 246355;
+	Color borde: 0F362D;
+	Color iluminado: 369681;
+*/
+
+#precio{
+	margin: 50px auto;
+	width: 900px;
+	font-size: 30px
+}
+#main-container{
+	margin: 50px auto;
+	width: 900px;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #024956;
+	border-bottom: solid 5px #024956;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #024956;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
